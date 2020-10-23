@@ -1,0 +1,7 @@
+
+1. Buat satu receiver untuk amik nama dan employee number dan save dekat csv file, kita akan terima data itu
+   setiap kali ada new employee registration
+
+2. Buat satu lagi receiver untuk permission, dimana jika ianya adalah "active" maka
+   pintu akan terbuka
+

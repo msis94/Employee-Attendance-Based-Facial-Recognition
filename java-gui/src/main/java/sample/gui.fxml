@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GuiController">
+   <children>
+      <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Home">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+          <Tab text="New Registration">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="167.0" prefWidth="387.0">
+                     <children>
+                        <TextField fx:id="tf_emp_name_register" layoutX="24.0" layoutY="7.0" prefHeight="26.0" prefWidth="552.0" promptText="Full Name" />
+                        <TextField fx:id="tf_emp_num_register" layoutX="22.0" layoutY="43.0" prefHeight="26.0" prefWidth="173.0" promptText="Employee Number" />
+                        <Button fx:id="btn_register_registration" layoutX="342.0" layoutY="43.0" mnemonicParsing="false" onAction="#register" text="Register" />
+                        <TableView fx:id="tbl_registration" layoutY="79.0" prefHeight="288.0" prefWidth="600.0">
+                          <columns>
+                            <TableColumn fx:id="col_emp_name" prefWidth="306.0" text="Employee Name" />
+                            <TableColumn fx:id="col_emp_num" prefWidth="160.0" text="Employee Number" />
+                              <TableColumn fx:id="col_emp_status" prefWidth="133.0" text="Employee Status" />
+                          </columns>
+                        </TableView>
+                        <ChoiceBox fx:id="cb_status" layoutX="207.0" layoutY="43.0" prefHeight="26.0" prefWidth="126.0" />
+                        <Button fx:id="btn_search_registration" layoutX="424.0" layoutY="43.0" mnemonicParsing="false" onAction="#searchRegistration" text="Search" />
+                        <Button fx:id="btn_alldata" layoutX="504.0" layoutY="43.0" mnemonicParsing="false" onAction="#allDataRegistration" text="All Data" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Searching">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="448.0" prefWidth="600.0">
+                     <children>
+                        <TextField fx:id="tf_emp_num_search" layoutX="17.0" layoutY="7.0" promptText="Employee Number" />
+                        <TableView fx:id="tbl_attendance" layoutX="1.0" layoutY="126.0" prefHeight="242.0" prefWidth="600.0">
+                          <columns>
+                            <TableColumn fx:id="col_date" prefWidth="108.0" text="Date" />
+                            <TableColumn fx:id="col_time_in" prefWidth="170.0" text="Time In" />
+                              <TableColumn fx:id="col_time_out" prefWidth="199.0" text="Time Out" />
+                              <TableColumn fx:id="col_remark" prefWidth="122.0" text="Remark" />
+                          </columns>
+                        </TableView>
+                        <Button fx:id="btn_search" layoutX="199.0" layoutY="7.0" mnemonicParsing="false" onAction="#searchButton" text="Search" />
+                        <TextField fx:id="tf_day_startdate" layoutX="17.0" layoutY="49.0" prefHeight="26.0" prefWidth="186.0" promptText="eg: 27-10-2020" />
+                        <Text layoutX="214.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="START DATE">
+                           <font>
+                              <Font name="Gargi" size="13.0" />
+                           </font></Text>
+                        <TextField fx:id="tf_day_enddate" layoutX="17.0" layoutY="89.0" prefHeight="26.0" prefWidth="186.0" promptText="eg: 30-10-2020" />
+                        <Text layoutX="214.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="END DATE" />
+                        <TextField fx:id="tf_hour_starttime" layoutX="317.0" layoutY="49.0" prefHeight="26.0" prefWidth="180.0" promptText="eg: 20:14:30" />
+                        <Text layoutX="512.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIME IN" />
+                        <TextField fx:id="tf_hour_endtime" layoutX="317.0" layoutY="89.0" prefHeight="26.0" prefWidth="181.0" promptText="eg: 21:14:30" />
+                        <Text layoutX="512.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIME OUT" />
+                        <Button fx:id="btn_all_data" layoutX="271.0" layoutY="7.0" mnemonicParsing="false" onAction="#showAttendanceDetail" text="All Data" />
+                        <Label fx:id="lbl_info" layoutX="358.0" layoutY="12.0" prefHeight="16.0" prefWidth="226.0" text="Label" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

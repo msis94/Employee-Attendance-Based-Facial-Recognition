@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8342b23a-9710-4357-bb12-d03d368ebcc6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jHkZyAGipnWY4Nxm3ikdx2sWlU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8342b23a-9710-4357-bb12-d03d368ebcc6" name="Default Changelist" comment="" />
+      <created>1603468465197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603468465197</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ai-engine" />
+      <path value="$PROJECT_DIR$/java-database" />
+      <path value="$PROJECT_DIR$/java-gui" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="427" y="297" width="570" height="207" key="Github.ShareDialog" timestamp="1603477715543">
+      <screen x="58" y="27" width="1308" height="741" />
+    </state>
+    <state x="427" y="297" width="570" height="207" key="Github.ShareDialog/58.27.1308.741@58.27.1308.741" timestamp="1603477715543" />
+    <state x="227" y="71" width="960" height="659" key="Github.UntrackedFilesDialog" timestamp="1603477721385">
+      <screen x="58" y="27" width="1308" height="741" />
+    </state>
+    <state x="227" y="71" width="960" height="659" key="Github.UntrackedFilesDialog/58.27.1308.741@58.27.1308.741" timestamp="1603477721385" />
+    <state x="195" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1603478020344">
+      <screen x="58" y="27" width="1308" height="741" />
+    </state>
+    <state x="195" y="27" width="1024" height="741" key="SettingsEditor/58.27.1308.741@58.27.1308.741" timestamp="1603478020344" />
+    <state x="209" y="135" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603477694002">
+      <screen x="58" y="27" width="1308" height="741" />
+    </state>
+    <state x="209" y="135" width="800" height="535" key="Vcs.Push.Dialog.v2/58.27.1308.741@58.27.1308.741" timestamp="1603477694002" />
+  </component>
+</project>
